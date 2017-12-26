@@ -19,4 +19,4 @@ import PluginHeader from '../components/PluginHeader'
 引入:
 import Header from '../components/PluginHeader'
 使用:
-<header></>
+<header></header>
