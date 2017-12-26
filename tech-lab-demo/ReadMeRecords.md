@@ -2,7 +2,7 @@
 
 ### ### ### ### ### ### ### ### ### ### ### ### ###
 [2017-12-26]
-1. <router-view/>:
+1. &lt;router-view/ &gt;:
 配置 路由规则 后,忘了在初始化文件(App.vue)中添加此 元素,导致路由未生效。
 低级错误。
 
@@ -13,10 +13,10 @@ PluginHeader.vue
 引入:
 import PluginHeader from '../components/PluginHeader'
 使用:
-<plugin-header></plugin-header>
---- ---
+'&lt; plugin-header &gt; &lt;/plugin-header &gt;'
+
 错误用法(无法渲染!):
 引入:
 import Header from '../components/PluginHeader'
 使用:
-<header></header>
+&lt;header &gt;&lt;/header &gt;
