@@ -36,3 +36,23 @@ c.修改html模板:
   增加函数--setRemUnit()
 d. 关键词:
 postcss-loader, postcss-load-config
+
+4. 增加前端 mock 功能(以前使用 express 实现):
+a. 全局安装 json-server;
+b. 新建文件 "./mock/mockTemp.json"
+c. 在项目根目录下 执行命令 "json-server --watch mock/mockTemp.json --port 9090"
+注意:　建议另开一个 命令行窗口, 分别控制 VUE 和 mock
+--- --- ---
+另(尝试局部安装 json-server):
+"scripts": {
+    "dev": "webpack-dev-server --inline --hot --no-info",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "mock": "node_modules/.bin/json-server --watch mock/db.json --port 9090",
+    "mockdev": "npm run mock & npm run dev"
+}
+--- ---
+其他方式 or 辅助:
+4.1 axios-mock-adapter;
+4.2 express;
+4.3 faker.js;
+4.4 mock.js;

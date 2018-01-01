@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "api":{
+    "list": [
+      {
+        "name": "菠萝",
+        "price": "101",
+        "seriaNo": "s10000"
+      },
+      {
+        "name": "牛奶",
+        "price": "35",
+        "seriaNo": "s10001"
+      },
+      {
+        "name": "橙子",
+        "price": "30",
+        "seriaNo": "s10002"
+      },
+      {
+        "name": "橘子",
+        "price": "50",
+        "seriaNo": "s10003"
+      },
+      {
+        "name": "面包",
+        "price": "105",
+        "seriaNo": "s10005"
+      }
+    ]
+  }
+
+}
