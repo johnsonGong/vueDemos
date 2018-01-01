@@ -16,8 +16,5 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.comm-header {
-  background-color: yellow;
-  margin-bottom: 10px;
-}
+
 </style>

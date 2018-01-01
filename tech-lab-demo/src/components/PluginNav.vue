@@ -26,7 +26,5 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.comm-nav {
-  background-color: #cddc39;
-}
+
 </style>

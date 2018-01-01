@@ -13,10 +13,26 @@ PluginHeader.vue
 引入:
 import PluginHeader from '../components/PluginHeader'
 使用:
-<plugin-header></plugin-header>
+'<plugin-header></plugin-header>'
 --- ---
 错误用法(无法渲染!):
 引入:
 import Header from '../components/PluginHeader'
 使用:
-<header></>
+'<header></header>'
+
+
+3. 增加postcss 插件( 比如: postcss-adaptive ):
+postcss 是一个css操作集合(类似: 小平台的感觉),
+在 vue-cli 工程模板环境中, '不用'单独在 webpack.dev.conf.js文件中配置参数.
+--- ---
+[步骤]:
+a. 安装:
+  npm i postcss-adaptive --save-dev
+b. 修改根目录下文件:.postcssrc.js
+  即: 在 plugins 属性下增加
+  "postcss-adaptive": {remUnit: 75, autoRem: true}
+c.修改html模板:
+  增加函数--setRemUnit()
+d. 关键词:
+postcss-loader, postcss-load-config

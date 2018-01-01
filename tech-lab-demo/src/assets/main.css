@@ -1,0 +1,19 @@
+*{
+  font-size: 30px;
+}
+
+.comm-header {
+  background-color: pink;
+  margin-bottom: 10px;
+  font-size: 50px;
+
+}
+
+.comm-nav {
+  background-color: #cddc39;
+  font-size: 40px;
+}
+
+/*.comm-*{
+  font-size: 50px;
+}*/
